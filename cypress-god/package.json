@@ -35,5 +35,6 @@
     "prop-types": "15.8.1",
     "storybook": "^7.6.10",
     "vite": "^5.0.8"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
