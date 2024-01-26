@@ -1,0 +1,23 @@
+`yarn create vite` for creating new project of react with js
+`cd project-dir` and `yarn` for installing dependencies
+`yarn dev` for running dev server but before that...
+
+`npx storybook@latest init` for creating storybook project in the same directory
+
+`yarn create cypress-tests` for creating cypress project in the same directory
+it will make your code committed before making changes, so you can see the changes in the diff
+
+used `https://github.com/cypress-io/cypress/issues/27370#issuecomment-1649715561` to resolve the same issue.
+
+optional: updated local yarn version using `yarn set version stable` into thre repository directory
+
+create cypress.json file with content:
+```JSON
+{
+  "component": {
+    "testFiles": "**/*.test.{js,ts,jsx,tsx}",
+    "componentFolder": "src"
+  }
+}
+```
+although it will be migrated by latest cypress config
