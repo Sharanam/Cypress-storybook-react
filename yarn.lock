@@ -5256,9 +5256,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress-god@workspace:.":
+"cypress-with-storybook@workspace:.":
   version: 0.0.0-use.local
-  resolution: "cypress-god@workspace:."
+  resolution: "cypress-with-storybook@workspace:."
   dependencies:
     "@storybook/addon-essentials": "npm:^7.6.10"
     "@storybook/addon-interactions": "npm:^7.6.10"
